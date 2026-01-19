@@ -28,5 +28,6 @@ public class Program
  
     // STEP 3: Output the sentence created in STEP 2 to the console with Console.WriteLine().
  
+    Console.WriteLine(sentence);
   }
 }
