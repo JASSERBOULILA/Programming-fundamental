@@ -12,3 +12,4 @@ C:\Users\bhiml\Desktop\ProgrammingFundamentale\Lab3\obj\Debug\net10.0\refint\Lab
 C:\Users\bhiml\Desktop\ProgrammingFundamentale\Lab3\obj\Debug\net10.0\Lab3.pdb
 C:\Users\bhiml\Desktop\ProgrammingFundamentale\Lab3\obj\Debug\net10.0\Lab3.genruntimeconfig.cache
 C:\Users\bhiml\Desktop\ProgrammingFundamentale\Lab3\obj\Debug\net10.0\ref\Lab3.dll
+C:\Users\bhiml\Desktop\ProgrammingFundamentale\Lab3\obj\Debug\net10.0\Lab3.sourcelink.json
