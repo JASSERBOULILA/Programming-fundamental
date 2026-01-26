@@ -7,7 +7,7 @@ namespace Lab2SpaceExploration
         static void Main(string[] args)
         {
             // add all the planet radiuses
-            
+
             double mercuryRadius = 2439.7;
             double venusRadius = 6051.8;
             double earthRadius = 6371.0;
@@ -17,6 +17,10 @@ namespace Lab2SpaceExploration
             double uranusRadius = 25362.0;
             double neptuneRadius = 24622.0;
 
+            // creating variable for the area for each planet
+            double mercuryArea ,venusArea, earthArea, marsArea, jupiterArea, saturnArea, uranusArea, neptuneArea;
+
+            
         }
     }
 }
