@@ -1,7 +1,8 @@
 using System;
-public class Program
+
+  public class Lab2
 {
-  public static void Main()
+  public static void Run()
   {
     // Lab 2 - COMP 1030 Programming Fundamentals
  
@@ -30,4 +31,6 @@ public class Program
  
     Console.WriteLine(sentence);
   }
-}
+}  
+
+

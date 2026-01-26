@@ -1,10 +1,8 @@
 using System;
 
-namespace Lab2SpaceExploration
-{
-    internal class Program
+    public static class Lab3
     {
-        static void Main(string[] args)
+        public static void Run()
         {
             // STEP 1: Determine the radius of each of the planets of the solar system (in kilometres) and declare a variable for each using an appropriate real number type
 
@@ -44,4 +42,4 @@ namespace Lab2SpaceExploration
              
         }
     }
-}
+
