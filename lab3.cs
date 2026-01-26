@@ -19,7 +19,18 @@ namespace Lab2SpaceExploration
 
             // creating variable for the area for each planet
             double mercuryArea ,venusArea, earthArea, marsArea, jupiterArea, saturnArea, uranusArea, neptuneArea;
+            // calculate the all of the area for each planet
 
+            mercuryArea = 4 * Math.PI * Math.Pow(mercuryRadius, 2);
+            venusArea = 4 * Math.PI * Math.Pow(venusRadius, 2);
+            earthArea = 4 * Math.PI * Math.Pow(earthRadius, 2);
+            marsArea = 4 * Math.PI * Math.Pow(marsRadius, 2);
+            jupiterArea = 4 * Math.PI * Math.Pow(jupiterRadius, 2);
+            saturnArea = 4 * Math.PI * Math.Pow(saturnRadius, 2);
+            uranusArea = 4 * Math.PI * Math.Pow(uranusRadius, 2);
+            neptuneArea = 4 * Math.PI * Math.Pow(neptuneRadius, 2);
+
+            
             
         }
     }
