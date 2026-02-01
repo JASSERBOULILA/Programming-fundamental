@@ -9,7 +9,7 @@ class Program
         Console.WriteLine("2) Lab2");
         Console.WriteLine("3) Lab3");
         Console.WriteLine("4) Lab4");
-
+        Console.WriteLine("5) Module4");
         string choice = Console.ReadLine();
 
         switch (choice)
@@ -22,6 +22,9 @@ class Program
                 break;
             case "4":
                 Lab4.Run();
+                break;
+            case "5":
+                Module4.Module4.Run();
                 break;
             default:
                 Console.WriteLine("Invalid choice");

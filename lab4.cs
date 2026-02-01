@@ -43,7 +43,7 @@
         // STEP 7a: Comparing Strings - get the day of the week
         DateTime localDate  = DateTime.Now;
         // STEP 7b: Output the day of the week
-
+        
         // STEP 7c: Create a condition to check to if today is Monday
 
         /* STEP 8a: Comparing strings is a case-sensitive matter
