@@ -22,8 +22,18 @@ public static class Lab4Assignment
         if(day  == "Saturday" || day == "Sunday")
         {
             
+            // STEP 5a: It is either Saturday or Sunday, so now we need an if/else condition to see whether it is time to wake up or not
+            if(hour >= 9)
+            {
+                Console.WriteLine("It is the weekend and it is time to wake up and enjoy the day");
+            }
+            else
+            {
+                Console.WriteLine("It is the weekend but it is not yet time to wake up");
+            }
+
         }
-        // STEP 5a: It is either Saturday or Sunday, so now we need an if/else condition to see whether it is time to wake up or not
+        
 
         // STEP 5b: It is 9am or later, so output a message to the console that it is the weekend and it is time to wake up and enjoy the day
 
