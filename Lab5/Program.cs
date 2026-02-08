@@ -10,24 +10,24 @@ public class Lab5
         for(int row = 1 ; row <= 10 ; row++)
         {
             // Initialize column counter for inner loop
-            int col1  = 1;
+            int col  = 1;
             // Inner loop: iterate through columns 1 to 10
-            while (col1 <= 10)
+            while (col <= 10)
             {
-                
+                // Calculate the product of current row and column
+                product = row * col;
+                // Format output: add extra space for single-digit numbers
+                if(product < 10)
+                {
+                    Console.Write(product + ",  ");
+                }
+                else
+                {
+                    Console.Write(product);
+                }
             }
         }
 
-        // Calculate the product of current row and column
-        product = row * col
-
-
-        // Format output: add extra space for single-digit numbers
-        IF product< 10 THEN
-            PRINT product + ",  "
-        ELSE
-            PRINT product + ", "
-        ENDIF
 
 
         // Move to next column
