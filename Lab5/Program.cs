@@ -29,7 +29,7 @@ public class Lab5
                 col++;
             }
             // Move to the next row after finishing all columns
-            Console.WriteLine(" /n");
+            Console.WriteLine();
         }
 
 
