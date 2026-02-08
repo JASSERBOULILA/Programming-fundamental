@@ -11,11 +11,12 @@ public class Lab5
         {
             // Initialize column counter for inner loop
             int col1  = 1;
+            // Inner loop: iterate through columns 1 to 10
+            while (col1 <= 10)
+            {
+                
+            }
         }
-
-    // Inner loop: iterate through columns 1 to 10
-    WHILE col <= 10 DO
-
 
         // Calculate the product of current row and column
         product = row * col
