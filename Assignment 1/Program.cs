@@ -16,15 +16,20 @@ public static class Assignment1
         string userChoice = Console.ReadLine();
         
         // variable to represent the length and of a romm
-        int length = 0;
-        int width = 0;
+        string length = "";
+        string width = "";
 
         Console.WriteLine("Enter the length of the room in feet:");
-        length = Convert.ToInt32(Console.ReadLine());
+        length = Console.ReadLine();
         Console.WriteLine("Enter the width of the room in feet:");
-        width = Convert.ToInt32(Console.ReadLine());
+        width = Console.ReadLine();
 
-        
+        // check if the user has inputted a number
+        if(!int.TryParse(length, out int result) || !int.TryParse(width, out result))
+        {
+            Console.WriteLine("Invalid input. Please enter a number.");
+            
+        }
 
 
     }
