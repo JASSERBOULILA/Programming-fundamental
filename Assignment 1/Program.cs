@@ -71,16 +71,26 @@ public static class Assignment1
         if (userChoice == "A")
         {
             // Hardwood selected
+            double area = length * width;
+            double hardwoodPrice = double.Parse(hardwood);
+            double totalCost = area * hardwoodPrice;
             Console.WriteLine("You selected Hardwood flooring.");
+
         }
         else if (userChoice == "B")
         {
             // Carpet selected
+            double area = length * width;
+            double carpetPrice = double.Parse(carpet);
+            double totalCost = area * carpetPrice;
             Console.WriteLine("You selected Carpet flooring.");
         }
         else if (userChoice == "C")
         {
             // Laminate selected
+            double area = length * width;
+            double laminatePrice = double.Parse(laminate);
+            double totalCost = area * laminatePrice;
             Console.WriteLine("You selected Laminate flooring.");
         }
     }
