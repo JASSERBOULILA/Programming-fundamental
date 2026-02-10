@@ -15,5 +15,10 @@ public static class Assignment1
         // variable to store the user choice
         string userChoice = Console.ReadLine();
         
+        // variable to represent the length and of a romm
+        int length = 0;
+        int width = 0;
+
+        
     }
 }
