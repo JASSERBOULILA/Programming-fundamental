@@ -4,7 +4,7 @@
 public static class Assignment1
 {
     
-    public static void Run()
+    public static void Main(string[] args)
     {
         // three strings to store the price of each type of flooring
         string hardwood = "8.95";
@@ -19,6 +19,13 @@ public static class Assignment1
         int length = 0;
         int width = 0;
 
+        Console.WriteLine("Enter the length of the room in feet:");
+        length = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter the width of the room in feet:");
+        width = Convert.ToInt32(Console.ReadLine());
+
         
+
+
     }
 }
