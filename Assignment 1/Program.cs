@@ -74,10 +74,8 @@ public static class Assignment1
             double area = length * width;
             double hardwoodPrice = double.Parse(hardwood);
             double totalCost = area * hardwoodPrice;
-            Console.WriteLine("You selected Hardwood flooring.");
-            Console.WriteLine($"Room area: {area} square feet");
-            Console.WriteLine($"Price per square foot: ${hardwoodPrice}");
-            Console.WriteLine($"Total cost: ${totalCost}");
+            // Step 13: Output a sentence with floor type, area, and final cost
+            Console.WriteLine($"You selected Hardwood flooring for a {area} square foot room at a total cost of ${totalCost:F2}.");
 
         }
         else if (userChoice == "B")
@@ -86,10 +84,8 @@ public static class Assignment1
             double area = length * width;
             double carpetPrice = double.Parse(carpet);
             double totalCost = area * carpetPrice;
-            Console.WriteLine("You selected Carpet flooring.");
-            Console.WriteLine($"Room area: {area} square feet");
-            Console.WriteLine($"Price per square foot: ${carpetPrice}");
-            Console.WriteLine($"Total cost: ${totalCost}");
+            // Step 13: Output a sentence with floor type, area, and final cost
+            Console.WriteLine($"You selected Carpet flooring for a {area} square foot room at a total cost of ${totalCost:F2}.");
         }
         else if (userChoice == "C")
         {
@@ -97,10 +93,9 @@ public static class Assignment1
             double area = length * width;
             double laminatePrice = double.Parse(laminate);
             double totalCost = area * laminatePrice;
-            Console.WriteLine("You selected Laminate flooring.");
-            Console.WriteLine($"Room area: {area} square feet");
-            Console.WriteLine($"Price per square foot: ${laminatePrice}");
-            Console.WriteLine($"Total cost: ${totalCost}");
+            // Step 13: Output a sentence with floor type, area, and final cost
+            Console.WriteLine($"You selected Laminate flooring for a {area} square foot room at a total cost of ${totalCost:F2}.");
         }
     }
+    
 }
