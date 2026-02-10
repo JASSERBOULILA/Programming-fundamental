@@ -1,9 +1,9 @@
-﻿using System ; 
+﻿using System;
 
 
 public static class Assignment1
 {
-    
+
     public static void Main(string[] args)
     {
         // three strings to store the price of each type of flooring
@@ -13,8 +13,8 @@ public static class Assignment1
 
 
         // variable to store the user choice
-        string userChoice = Console.ReadLine();
-        
+        string userChoice = "";
+
         // variable to represent the length and of a romm
         string length = "";
         string width = "";
@@ -25,11 +25,20 @@ public static class Assignment1
         width = Console.ReadLine();
 
         // check if the user has inputted a number
-        if(!int.TryParse(length, out int result) || !int.TryParse(width, out result))
+        if (!int.TryParse(length, out int result) || !int.TryParse(width, out result))
         {
             Console.WriteLine("Invalid input. Please enter a number.");
-            
+
         }
+
+        // ask the user about the flooring choice
+        Console.WriteLine("What type of flooring would you like?");
+        Console.WriteLine($"A. Hardwood (${hardwood} per sq ft)");
+        Console.WriteLine($"B. Carpet (${carpet} per sq ft)");
+        Console.WriteLine($"C. Laminate (${laminate} per sq ft)");
+        Console.WriteLine("Please enter A, B, or C:");
+        userChoice = Console.ReadLine().ToUpper();
+
 
 
     }
