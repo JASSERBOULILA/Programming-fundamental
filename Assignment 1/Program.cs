@@ -75,6 +75,9 @@ public static class Assignment1
             double hardwoodPrice = double.Parse(hardwood);
             double totalCost = area * hardwoodPrice;
             Console.WriteLine("You selected Hardwood flooring.");
+            Console.WriteLine($"Room area: {area} square feet");
+            Console.WriteLine($"Price per square foot: ${hardwoodPrice}");
+            Console.WriteLine($"Total cost: ${totalCost}");
 
         }
         else if (userChoice == "B")
@@ -84,6 +87,9 @@ public static class Assignment1
             double carpetPrice = double.Parse(carpet);
             double totalCost = area * carpetPrice;
             Console.WriteLine("You selected Carpet flooring.");
+            Console.WriteLine($"Room area: {area} square feet");
+            Console.WriteLine($"Price per square foot: ${carpetPrice}");
+            Console.WriteLine($"Total cost: ${totalCost}");
         }
         else if (userChoice == "C")
         {
@@ -92,6 +98,9 @@ public static class Assignment1
             double laminatePrice = double.Parse(laminate);
             double totalCost = area * laminatePrice;
             Console.WriteLine("You selected Laminate flooring.");
+            Console.WriteLine($"Room area: {area} square feet");
+            Console.WriteLine($"Price per square foot: ${laminatePrice}");
+            Console.WriteLine($"Total cost: ${totalCost}");
         }
     }
 }
