@@ -39,7 +39,24 @@ public static class Assignment1
         Console.WriteLine("Please enter A, B, or C:");
         userChoice = Console.ReadLine().ToUpper();
 
+        // check the user input choice
+        switch (userChoice)
+        {
+            case "A":
+                userChoice = "A";
+                break;
+            case "B":
+                userChoice = "B";
+                break;
+            
+            case "C":
+                userChoice = "C";
+                break;
 
+            default:
+                Console.WriteLine("Invalid input. Please enter A, B, or C.");
+                break;
+        }
 
     }
 }
