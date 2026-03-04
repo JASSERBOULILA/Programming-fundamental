@@ -18,10 +18,16 @@ public static class Lab6
             // STEP 4: Build a FOR() loop to iterate through the array you created in STEP 1, using the variable you created in STEP 2 to control how many times the loop repeats
                     for(int i = 0; i < length; i++)
             {
-                Console.WriteLine("List of Ice Cream Flavors: "+ i +"    " +  iceCreamFlavors[i]);    
+                // STEP 5: Inside the FOR() loop, output each element of the array to the Console
+                Console.WriteLine(i +"    " +  iceCreamFlavors[i]);    
             }
-        // STEP 5: Inside the FOR() loop, output each element of the array to the Console
+
+
         // STEP 6: Output a simple sentence to the Console indicating to the user that you are about to list all the ice cream flavors available at your stand using a FOREACH() loop 
+        foreach (string flavor in iceCreamFlavors)
+        {
+            Console.WriteLine("List of Ice Cream Flavors: " + flavor);
+        }
         // STEP 7: Construct a FOREACH() loop that also outputs all of the elements of the same array
         // STEP 8: Inside the FOREACH() loop, output each element of the array to the Console
     }
