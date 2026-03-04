@@ -24,12 +24,14 @@ public static class Lab6
 
 
         // STEP 6: Output a simple sentence to the Console indicating to the user that you are about to list all the ice cream flavors available at your stand using a FOREACH() loop 
+        Console.WriteLine("Here are all the ice cream flavors using a FOREACH loop:");
+        // STEP 7: Construct a FOREACH() loop that also outputs all of the elements of the same array
         foreach (string flavor in iceCreamFlavors)
         {
-            Console.WriteLine("List of Ice Cream Flavors: " + flavor);
+                    // STEP 8: Inside the FOREACH() loop, output each element of the array to the Console
+            Console.WriteLine( flavor);
         }
-        // STEP 7: Construct a FOREACH() loop that also outputs all of the elements of the same array
-        // STEP 8: Inside the FOREACH() loop, output each element of the array to the Console
+
     }
 }
 
