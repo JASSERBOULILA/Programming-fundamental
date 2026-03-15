@@ -36,6 +36,17 @@ class Lab8
         // STEP 14: Do something interesting with the "level" parameter, by changing the color of the console (1 = green, 2 = yellow, 3 = red, otherwise black) using a switch() statement
         string howSerious;
 
+        if (includeDate)
+        {
+            date  = DateTime.Now.ToString();
+
+        }
+        else
+        {
+            date = "";
+        }
+
+
         switch (level)
         {
             case 1:
