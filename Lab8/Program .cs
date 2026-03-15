@@ -94,7 +94,7 @@ class Lab8
         // STEP 13c: Named parameters avoids the issue of possibly passing method arguments in the wrong order
         //Alert(message: "Drop everything - this is a critcial issue", sound: true, level: 2);
         //Alert(3, "We are all out of coffee", false);
-        string alertMessage = Alert(message: "We are all out of coffee", sound: true, level: 3);
+        string alertMessage = Alert(message: "We are all out of coffee", sound: true, level: 3, includeDate: true);
         Console.WriteLine(alertMessage);
     }
 }
