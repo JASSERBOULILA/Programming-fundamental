@@ -74,7 +74,7 @@ class Lab8
         // STEP 15: Return something from the method - add a "howSerious" string variable above the switch() statement above, and set the value to various messages, escalating in seriousness
 
         // STEP 16a: Create a string variable (often called result) that assembles a string including the alert level, the message argument, and the new howSerious variable
-        string result = $"Alert level {level}. {message}. {howSerious}";
+        string result = $"Date: {date} | Alert level {level}. {message}. {howSerious}";
         // STEP 16b: Return the result string back to the program
         return result;
     }
