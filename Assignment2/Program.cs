@@ -19,7 +19,9 @@ class Assignment2
         // used the while loop to run the game because we dont have any array or limit on the number of guesses
         while (true)
         {
-            
+            // STEP 3  : ask the user to enter their guess
+            Console.Write("Enter your guess: ");
+            string input = Console.ReadLine();
 
         }
     }
