@@ -53,14 +53,15 @@ class Assignment2
 
             }
 
-            Console.WriteLine();
-            Console.WriteLine("All your guesses were:");
-            
-            // last step : Show the user guesses
-            for (int i = 0; i < index; i++)
-            {
-                Console.WriteLine(guesses[i]);
-            }
+
+        }
+        Console.WriteLine();
+        Console.WriteLine("All your guesses were:");
+
+        // last step : Show the user guesses
+        for (int i = 0; i < index; i++)
+        {
+            Console.WriteLine(guesses[i]);
         }
     }
 }
