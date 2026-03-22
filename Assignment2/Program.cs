@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+class Assignment2
+{
+    static void Main()
+    {
+        Console.WriteLine("Temperature Game Starting...");
+    }
+}
