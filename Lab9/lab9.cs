@@ -9,14 +9,13 @@ namespace Lab9
         public int Size;
         public string Material;
         // STEP 7a: The CONSTRUCTOR for the ball object accepts 3 arguments (string color, int size, string material) that are used to set the above properties - build the constructor for Ball
+        public Ball(string color, int size, string material)
         {
-        // STEP 7b: Use each of the arguments passed in to the above constructor parameters to set the three properties 
         }
+        // STEP 7b: Use each of the arguments passed in to the above constructor parameters to set the three properties 
         // STEP 8a: Create a method called 'Description' - it does not need any parameters and it will not return anything
-        {
         // STEP 8b: Build a sentence that describes the Ball object, including all three properties
         // STEP 8c: Output the above sentence to the console, then head back to Program.cs for the next step
-        }
 
     }
 }
