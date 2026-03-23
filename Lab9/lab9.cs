@@ -18,6 +18,9 @@ namespace Lab9
         }
 
         // STEP 8a: Create a method called 'Description' - it does not need any parameters and it will not return anything
+        public void Description()
+        {
+        }
         // STEP 8b: Build a sentence that describes the Ball object, including all three properties
         // STEP 8c: Output the above sentence to the console, then head back to Program.cs for the next step
 
