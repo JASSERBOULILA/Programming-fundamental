@@ -5,6 +5,9 @@ namespace Lab9
     class Ball
     {
         // STEP 6: The ball object needs 3 properties: Color, Size, and Material - declare these below
+        public string Color;
+        public int Size;
+        public string Material;
         // STEP 7a: The CONSTRUCTOR for the ball object accepts 3 arguments (string color, int size, string material) that are used to set the above properties - build the constructor for Ball
         {
         // STEP 7b: Use each of the arguments passed in to the above constructor parameters to set the three properties 
