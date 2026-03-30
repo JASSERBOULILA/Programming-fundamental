@@ -5,7 +5,7 @@ using Shapes;
 // STEP 2: Proceed to Shapes.cs and examine the class Rectangle
 
 // STEP 3: Create an instance of a new Rectangle object (call it var rectangle1) and give it a height and width in integers (passed in as arguments)
-
+var rectangle1 = new Rectangle(4, 8);
 // STEP 4a: Get a description of the rectangle1 object by invoking (or calling) the DescribeRectangle() method and assigning it to a string type called description1
 
 // STEP 4b: Output description1 using Console.WriteLine()
