@@ -7,13 +7,13 @@ using Shapes;
 // STEP 3: Create an instance of a new Rectangle object (call it var rectangle1) and give it a height and width in integers (passed in as arguments)
 var rectangle1 = new Rectangle(4, 8);
 // STEP 4a: Get a description of the rectangle1 object by invoking (or calling) the DescribeRectangle() method and assigning it to a string type called description1
-
+string description1 = rectangle1.DescribeRectangle();
 // STEP 4b: Output description1 using Console.WriteLine()
-
+Console.WriteLine(description1);
 // STEP 4c: Draw the rectangle1 object to the console by invoking the DrawRectangle() method
-
+rectangle1.DrawRectangle();
 // STEP 5: Compile and run the application to see the result or to track down any errors
-﻿
+
 
 // STEP 6: Create another instance of a Rectangle object (var rectangle2) and give it a different height and width in integers (as arguments)
 
