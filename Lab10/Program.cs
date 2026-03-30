@@ -14,9 +14,8 @@ Console.WriteLine(description1);
 rectangle1.DrawRectangle();
 // STEP 5: Compile and run the application to see the result or to track down any errors
 
-
 // STEP 6: Create another instance of a Rectangle object (var rectangle2) and give it a different height and width in integers (as arguments)
-
+var rectangle2 = new Rectangle(3, 5);
 // STEP 7a: Get a description of the rectangle object by invoking (calling) the DescribeRectangle() method and assigning it to a string type called description1
 
 // STEP 7b: Output description1 using Console.WriteLine()
